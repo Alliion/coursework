@@ -1,7 +1,17 @@
 
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
+.scrollup{
+    width:100px;
+    height:100px;
+    opacity:0.8;
+    position:fixed;
+    bottom:50px;
+    left:80px;
+    display:none;
+    text-indent:-9999px;
+    background: url(../img/icons/up.png) no-repeat;
+}
 
 ::-moz-selection {
     background: #f2c2c9;
